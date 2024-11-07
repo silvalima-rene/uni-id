@@ -1,0 +1,44 @@
+<div class="carteira-container">
+  <!-- Conteúdo principal da carteira -->
+  <main class="content">
+    <!-- Seção da carteira do aluno -->
+    <div class="card-details">
+      <div class="photo-section">
+        <img src="../../assets/{{user.profilePic}}" alt="Foto do Aluno" class="student-photo" />
+      </div>
+      <div class="card-info">
+        <img src="../../assets/logo-uscs.png" alt="">
+        <div class="info-section">
+          <h3>{{ user.name }}</h3>
+          <ul>
+            <li><strong>Curso:</strong> {{user.curso}}</li>
+            <!-- <li><strong>Data nascimento:</strong> 15/12/1990</li> -->
+            <li><strong>CPF:</strong> 458.968.009-53</li>
+            <li><strong>Numero DNE:</strong> 2394.00F</li>
+            <li><strong>Validade:</strong> {{dataVencimento}}</li>
+          </ul>
+        </div>
+        <div>
+          <img src="../../assets/qr-code.png">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Botão de menu hambúrguer -->
+  <button class="hamburger-btn" (click)="toggleMenu()">&#9776;</button>
+
+  <!-- Menu lateral com classe dinâmica para visibilidade -->
+  <aside class="sidebar" [class.active]="isMenuVisible">
+    <div class="user-info">
+      <h3>{{ user.name }}</h3>
+    </div>
+    <nav>
+      <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+      <a routerLink="/carteira" routerLinkActive="active">Carteira</a>
+    </nav>
+  </aside>
+  <footer class="footer">
+    <p>&copy; 2024 Universidade São Caetano do Sul. Todos os direitos reservados.</p>
+  </footer>
+</div>

@@ -1,0 +1,56 @@
+<div class="dashboard-container">
+    <!-- Botão de menu hambúrguer -->
+    <button class="hamburger-btn" (click)="toggleMenu()">&#9776;</button>
+
+    <!-- Menu lateral com classe dinâmica para visibilidade -->
+    <aside class="sidebar" [class.active]="isMenuVisible">
+        <h3>Universidade São Caetano do Sul</h3>
+        <nav>
+            <a routerLink="/dashboard" routerLinkActive="active">Dashboard</a>
+            <a routerLink="/carteira" routerLinkActive="active">Carteira</a>
+            <a routerLink="/carteira" routerLinkActive="active">Últimas noticias</a>
+            <a routerLink="/carteira" routerLinkActive="active">Painel de Avisos</a>
+            <a routerLink="/carteira" routerLinkActive="active">Sobre</a>
+            <a routerLink="/carteira" routerLinkActive="active">Vestibular 2025</a>
+            <a routerLink="/carteira" routerLinkActive="active">Insituição</a>
+        </nav>
+    </aside>
+
+    <!-- Conteúdo principal -->
+    <main class="content">
+        <div class="logo-holder">
+            <img src="../../assets/logo-uscs.png">
+        </div>
+        <h2>Dashboard</h2>
+        <p>Bem-vindo ao painel principal da Universidade São Caetano do Sul!</p>
+
+        <!-- Painel de Notícias -->
+        <!-- Painel de Notícias -->
+        <section class="news-panel">
+            <h3>Últimas Notícias</h3>
+            <ul class="news-list">
+                <li>
+                    <h4>Matérias optativas</h4>
+                    <p>Participe das matérias optativas deste ano e ganhe créditos extras!</p>
+                </li>
+                <li>
+                    <h4>Abertura de Novos Cursos</h4>
+                    <p>Confira os novos cursos disponíveis a partir do próximo semestre.</p>
+                </li>
+                <li>
+                    <h4>Feira de Estágios</h4>
+                    <p>Não perca a feira de estágios, uma oportunidade para sua carreira!</p>
+                </li>
+                <li>
+                    <h4>Biblioteca Digital</h4>
+                    <p>Acesse a nova biblioteca digital com milhares de livros e artigos acadêmicos.</p>
+                </li>
+                <li>
+                    <h4>Blue lines eleito melhor album de trip hop de todos os tempos</h4>
+                    <p>Instituto MR declara o album da banda britânica como o melhor do mundo no genero.</p>
+                </li>
+            </ul>
+        </section>
+
+    </main>
+</div>
