@@ -15,7 +15,8 @@ export class LoginComponent {
     'thiago.santos': { password: 'amogregmaya', name: 'Thiago Nascimento Santos', curso: 'Sistemas de Informação', profilePic: 'foto-thiago.jpeg', cpf: '475.304.158-16', dne: '2063.00G'  },
     'mari.nogueira': { password: 'amolencinho', name: 'Mariana Felipe Nogueira', curso: 'Engenharia Química', profilePic: 'foto-mari.jpeg', cpf: '311.111.278-08', dne: '2063.00G'  },
     'neres.neres': { password: 'amosax', name: 'Thais Matins Neres de Araújo', curso: 'Design', profilePic: 'foto-neres.jpeg', cpf: '444.930.838-75', dne: '2063.00G'  },
-    'gabi.rosch': { password: 'amobjork', name: 'Gabriela Rosch Parraguez', curso: 'Gastronomia', profilePic: 'foto-gabi.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  }
+    'gabi.rosch': { password: 'amobjork', name: 'Gabriela Rosch Parraguez', curso: 'Gastronomia', profilePic: 'foto-gabi.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  },
+    'henrique.ribeiro': { password: 'amoslipmami', name: 'Henrique dos Santos Ribeiro', curso: 'Rádio e TV', profilePic: 'foto-henrique.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  }
   };
 
   constructor(private router: Router) {}
