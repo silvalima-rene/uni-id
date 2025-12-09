@@ -16,7 +16,9 @@ export class LoginComponent {
     'mari.nogueira': { password: 'amolencinho', name: 'Mariana Felipe Nogueira', curso: 'Engenharia Química', profilePic: 'foto-mari.jpeg', cpf: '311.111.278-08', dne: '2063.00G'  },
     'neres.neres': { password: 'amosax', name: 'Thais Matins Neres de Araújo', curso: 'Design', profilePic: 'foto-neres.jpeg', cpf: '444.930.838-75', dne: '2063.00G'  },
     'gabi.rosch': { password: 'amobjork', name: 'Gabriela Rosch Parraguez', curso: 'Gastronomia', profilePic: 'foto-gabi.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  },
-    'henrique.ribeiro': { password: 'amoslipmami', name: 'Henrique dos Santos Ribeiro', curso: 'Rádio e TV', profilePic: 'foto-henrique.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  }
+    'henrique.ribeiro': { password: 'amoslipmami', name: 'Henrique dos Santos Ribeiro', curso: 'Rádio e TV', profilePic: 'foto-henrique.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  },
+    'leo.machado': { password: 'amomcdavi', name: 'Leonardo Machado Rocha', curso: 'Arquitetura e Urbanismo', profilePic: 'foto-leo.jpeg', cpf: '415.267.818-67', dne: '2063.00G'  },
+    'isa.martini': { password: 'amoarquitetura', name: 'Isabella Martini Ramos', curso: 'Arquitetura e Urbanismo', profilePic: 'foto-isa.jpeg', cpf: '433.182.418-73', dne: '2063.00G'  }
   };
 
   constructor(private router: Router) {}
