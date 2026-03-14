@@ -18,6 +18,7 @@ export class LoginComponent {
     'gabi.rosch': { password: 'amobjork', name: 'Gabriela Rosch Parraguez', curso: 'Gastronomia', profilePic: 'foto-gabi.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  },
     'henrique.ribeiro': { password: 'amoslipmami', name: 'Henrique dos Santos Ribeiro', curso: 'Rádio e TV', profilePic: 'foto-henrique.jpeg', cpf: '513.011.158-35', dne: '2063.00G'  },
     'leo.machado': { password: 'amomcdavi', name: 'Leonardo Machado Rocha', curso: 'Arquitetura e Urbanismo', profilePic: 'foto-leo.jpeg', cpf: '415.267.818-67', dne: '2063.00G'  },
+    'jeff.correa': { password: 'amodjonga', name: 'Jefferson Correa', curso: 'Sistemas de informação', profilePic: 'foto-jeff.JPG', cpf: '392.525.968-60', dne: '2063.00G'  },
     'isa.martini': { password: 'amoarquitetura', name: 'Isabella Martini Ramos', curso: 'Arquitetura e Urbanismo', profilePic: 'foto-isa.jpeg', cpf: '433.182.418-73', dne: '2063.00G'  }
   };
 
